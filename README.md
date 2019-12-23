@@ -4,7 +4,7 @@ This plugin prevents crashes in iOS apps due to missing entries in the plist fil
 
 # Why?
 
-File inputs suddenly didn't work in iOS applications created using PhoneGap Build. When clicking on a file input and trying to select an image, the application crashes. This plugin adds NSCameraUsageDescription and NSPhotoLibraryUsageDescription in **_English_** (also used as fallback) and **_German_** and **_Dutch_** to our application.
+File inputs suddenly didn't work in iOS applications created using PhoneGap Build. When clicking on a file input and trying to select an image, the application crashes. This plugin adds NSCameraUsageDescription and NSPhotoLibraryUsageDescription in **_English_** (also used as fallback) and **_Dutch_** to our application.
 
 # Usage
 
