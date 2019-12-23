@@ -3,7 +3,7 @@
 	<name>Cordova iOS Permissions</name>
 	<description>Experimental plugin to prevent crashes in iOS apps due to missing entries in the plist file.</description>
 	<license>MIT</license>
-	<repo>https://github.com/MBuchalik/cordova-plugin-ios-permissions</repo>
+	<repo>https://github.com/justinvdv/cordova-plugin-ios-permissions</repo>
 
 	<platform name="ios">
 		<config-file target="*-Info.plist" parent="NSCameraUsageDescription">
@@ -12,8 +12,8 @@
 		<config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
 			<string>This app needs access to the photo library to pick images.</string>
 		</config-file>
+		<resource-file src="src/ios/nl.lproj" />
 		<resource-file src="src/ios/de.lproj" />
 		<resource-file src="src/ios/pt.lproj" />
-		<resource-file src="src/ios/nl.lproj" />
 	</platform>
 </plugin>
